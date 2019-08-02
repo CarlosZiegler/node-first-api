@@ -1,7 +1,7 @@
-#Project Title
+# Project Title
 Node First API
 
-##Description
+## Description
 A simple NodeJS API for CRUD Example in introduction NodeJS 
 
 A CRUD made with NodeJs and MongoDB. The tutorial is on the [Rocketseate](https://rocketseat.com.br/) website by @Diego Fernandes.
@@ -10,35 +10,35 @@ Thank you @Rocketseat
 
 
 
-##Prerequisites
+## Prerequisites
 
 * [Git](https://git-scm.com/)
 * [Node](https://nodejs.org)
 * [MongoDb](https://www.mongodb.com/)
 
-##Repository Clone :
+## Repository Clone :
  ```bash
  git clone https://github.com/filipedeschamps/video-maker.git
  
  ```
-##Install Dependences
+## Install Dependences
  ```bash
   cd node-first-api
   npm install
   
   ```
  
-###In file SERVER.JS changed your Credentials user:password of the String Connection MongoDB:
+### In file SERVER.JS changed your Credentials user:password of the String Connection MongoDB:
 
      'mongodb+srv://user:password@firstcluster-jl3a2.mongodb.net/test?retryWrites=true&w=majority'
 
      
-##Running
+## Running
   ```bash
  npm run dev
  ```
-##Getting Started
-###Routes: 
+## Getting Started
+### Routes: 
  
  * Get all Products -> http://localhost:3009/api/products
  
@@ -51,11 +51,11 @@ Thank you @Rocketseat
  * Update Product -> http://localhost:3009/api/products/id
  ...
  
-##Postman
+## Postman
  * With Postman use the file **Node-api.postman_collection.json**
  
  
-##Information of Packages:
+## Information of Packages:
 
 * [CORS](https://www.npmjs.com/package/cors) 
 * [EXPRESS](https://www.npmjs.com/package/express)
@@ -64,7 +64,7 @@ Thank you @Rocketseat
 * [REQUIRE-DIR](https://www.npmjs.com/package/require-dir)
 * [NODEMON](https://www.npmjs.com/package/nodemon)    
    
- ## Contributing
+## Contributing
  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
