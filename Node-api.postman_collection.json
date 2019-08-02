@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "03d3253f-4a03-41d4-b232-86e6f6be72c8",
+		"name": "Node-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3009/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"api",
+						"products"
+					]
+				},
+				"description": "List Products"
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {     \"title\": \"Rash Guard\",\n        \"description\": \"BJJ Sport rash Guard for Kids\",\n        \"url\": \"www.atama.com\",}"
+				},
+				"url": {
+					"raw": "http://localhost:3009/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"api",
+						"products"
+					]
+				},
+				"description": "List Products"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {    \"title\": \"Kimono Black Edition\",\n        \"description\": \"BJJ Sport Kleidung color Black\",\n        \"url\": \"www.gfteam-europa.com\"\n  \t\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:3009/api/products/5d42fbf650c83f34ec5fa893",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"api",
+						"products",
+						"5d42fbf650c83f34ec5fa893"
+					]
+				},
+				"description": "List Products"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {    \"title\": \"Kimono Black Edition\",\n        \"description\": \"BJJ Sport Kleidung color Black\",\n        \"url\": \"www.gfteam-europa.com\"\n  \t\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:3009/api/products/5d42fbf650c83f34ec5fa893",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"api",
+						"products",
+						"5d42fbf650c83f34ec5fa893"
+					]
+				},
+				"description": "List Products"
+			},
+			"response": []
+		},
+		{
+			"name": "Show",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {     \"title\": \"Rash Guard\",\n        \"description\": \"BJJ Sport rash Guard for Kids\",\n        \"url\": \"www.atama.com\",}"
+				},
+				"url": {
+					"raw": "http://localhost:3009/api/products/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"api",
+						"products",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"description": "List Products"
+			},
+			"response": []
+		}
+	]
+}

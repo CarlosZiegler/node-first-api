@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const requireDir = require('require-dir')
-const cors = requires('cors')
+const cors = require('cors')
 
 const app = express()
 
@@ -13,10 +13,10 @@ app.use(cors())
 
 //Connection wit DB
 mongoose.connect(
-    'mongodb+srv://ziegler:1405Lucas@firstcluster-jl3a2.mongodb.net/test?retryWrites=true&w=majority',
+    'mongodb+srv://test:test@firstcluster-jl3a2.mongodb.net/test?retryWrites=true&w=majority',
     { useNewUrlParser: true }
     )
-
+//import all of Path
 requireDir('./src/models/')
 
 
