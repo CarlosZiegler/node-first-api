@@ -40,15 +40,15 @@ Thank you @Rocketseat
 ## Getting Started
 ### Routes: 
  
- * Get all Products -> http://localhost:3009/api/products
+ * Return All Products -> Method __GET__ http://localhost:3009/api/products
  
- * Create new Product -> http://localhost:3009/api/products
+ * Create a New Product -> Method __POST__ http://localhost:3009/api/products
  
- * pdate Product -> http://localhost:3009/api/products/id
+ * Update a Product -> Method __PUT__ http://localhost:3009/api/products/id
  
- * Find Product by ID -> http://localhost:3009/api/products/id
+ * Find a Product by ID -> Method __GET__ http://localhost:3009/api/products/id
  
- * Update Product -> http://localhost:3009/api/products/id
+ * Delete a Product -> Method __DELETE__ http://localhost:3009/api/products/id
  ...
  
 ## Postman
