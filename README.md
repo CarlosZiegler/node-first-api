@@ -9,36 +9,36 @@ Best of all, it's free.
 Thank you @Rocketseat
 
 
-## Installation
-###Prerequisites
+
+##Prerequisites
 
 * [Git](https://git-scm.com/)
 * [Node](https://nodejs.org)
 * [MongoDb](https://www.mongodb.com/)
 
-###Repository Clone :
+##Repository Clone :
  ```bash
  git clone https://github.com/filipedeschamps/video-maker.git
  
  ```
- ###Install Dependences
+##Install Dependences
  ```bash
   cd node-first-api
   npm install
   
   ```
  
- ####In file SERVER.JS changed your Credentials user:password of the String Connection MongoDB:
+###In file SERVER.JS changed your Credentials user:password of the String Connection MongoDB:
 
      'mongodb+srv://user:password@firstcluster-jl3a2.mongodb.net/test?retryWrites=true&w=majority'
 
      
- ###Running
+##Running
   ```bash
  npm run dev
  ```
- ###Getting Started
- ####Routes: 
+##Getting Started
+###Routes: 
  
  * Get all Products -> http://localhost:3009/api/products
  
@@ -51,11 +51,11 @@ Thank you @Rocketseat
  * Update Product -> http://localhost:3009/api/products/id
  ...
  
- ####Postman
+##Postman
  * With Postman use the file **Node-api.postman_collection.json**
  
  
-####Information of Packages:
+##Information of Packages:
 
 * [CORS](https://www.npmjs.com/package/cors) 
 * [EXPRESS](https://www.npmjs.com/package/express)
