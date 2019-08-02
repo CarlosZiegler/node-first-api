@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
+const mongoosePaginate =  require('mongoose-paginate')
 
+//Mongoose create Schema in DB
 const ProductSchema = new mongoose.Schema({
     title:{
         type:String,
@@ -20,5 +22,8 @@ const ProductSchema = new mongoose.Schema({
     }
 
 })
+
+// Pagination of index
+ProductSchema.plugin(mongoosePaginate)
 
 mongoose.model('Product', ProductSchema)
