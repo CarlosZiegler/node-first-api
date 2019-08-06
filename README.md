@@ -18,7 +18,7 @@ Thank you @Rocketseat
 
 ## Repository Clone :
  ```bash
- git clone https://github.com/filipedeschamps/video-maker.git
+ git clone https://github.com/CarlosZiegler/node-first-api.git
  
  ```
 ## Install Dependences
